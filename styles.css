@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 75px;
+}
+
+header {
+    background-color: #1f2937;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.nav {
+    display: flex;
+    color: #E5E7EB;
+    list-style-type: none;
+    gap: 30px;
+}
