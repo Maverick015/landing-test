@@ -1,7 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0 75px;
+    margin: 0;
+
 }
 
 header {
@@ -9,7 +10,7 @@ header {
     color: #ffffff;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 15px 150px;
 }
 
 .nav {
@@ -17,4 +18,61 @@ header {
     color: #E5E7EB;
     list-style-type: none;
     gap: 30px;
+}
+
+.banner {
+    background-color: #1f2937;
+    display: flex;
+    padding: 100px 150px;
+    gap: 75px;
+    justify-content: space-between;
+}
+
+.text {
+    color: #ffffff;
+    max-width: 400px;
+}
+
+button {
+    background-color: #3c82f6;
+    color: #ffffff;
+    padding: 4px 30px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+#placeholder {
+    width: 400px;
+    height: 200px;
+}
+
+.container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0 150px;
+}
+
+.quote {
+    background-color: #e4e7eb;
+    padding: 40px 150px;
+    margin: 40px 0
+}
+
+#cta-banner {
+    padding: 0 150px;
+    margin: 40px 0;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
