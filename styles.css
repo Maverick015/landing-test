@@ -12,12 +12,19 @@ header {
     justify-content: space-between;
     padding: 15px 150px;
 }
+ 
+#logo {
+    width: 75px;
+    height: 75px;
+}
 
 .nav {
     display: flex;
     color: #E5E7EB;
     list-style-type: none;
     gap: 30px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .banner {
@@ -28,9 +35,21 @@ header {
     justify-content: space-between;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
 .text {
     color: #ffffff;
     max-width: 400px;
+}
+
+.text p {
+    font-size: 18px;
+    font-weight: light;
+    color: #E5E7EB;
 }
 
 button {
@@ -42,31 +61,67 @@ button {
 }
 
 #placeholder {
+    display: flex;
+    flex-shrink: 1;
     width: 400px;
     height: 200px;
 }
 
 .container {
     text-align: center;
-    margin: 20px 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .cards-container {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    flex-wrap: wrap;
+    gap: 50px;
     padding: 0 150px;
+    margin: 40px 0;
+}
+
+div.card > p {
+    width: 150px;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3c82f6;
+    border-radius: 5px;
+
 }
 
 .quote {
-    background-color: #e4e7eb;
-    padding: 40px 150px;
+    background-color: #e5e7eb;
+    padding: 40px 200px;
     margin: 40px 0
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+span {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.publicity{
+    margin: 40px 0;
 }
 
 #cta-banner {
     padding: 0 150px;
-    margin: 40px 0;
 }
 
 footer {
